@@ -1,4 +1,4 @@
-function countAllFromTown (regNumber, location){
+module.exports = function countAllFromTown (regNumber, location){
   
     var fromStellies = regNumber.split(',')
     var howMany = 0

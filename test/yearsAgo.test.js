@@ -25,8 +25,8 @@ console.log(diff_years(dt1, dt2));
 
 describe("the yearsAgo function ", function() {
 
-    it("should give out the years ", function() {
-      assert.equal(6, diff_years(dt1, dt2))
-  
-    })
+  it("should give out the years ", function() {
+    assert.equal(6, diff_years(dt1, dt2))
+
+  })
 })
