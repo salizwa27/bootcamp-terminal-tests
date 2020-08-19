@@ -8,4 +8,8 @@ describe("The countAllFromTown function", function() {
         assert.equal(3, countAllFromTown("CA 1335, CY 8523, CY 0001, CY 9635", "CY"))
         assert.equal(1, countAllFromTown("CA 1335, CY 8523, GP 0001, CY 9635", "GP"))
     })
+
+    it("should return the correct registration number for specific town", function() {
+        assert.equal(2, countAllFromTown("GP 1234, CA 555, GP 00001", "GP"))
+    })
 })

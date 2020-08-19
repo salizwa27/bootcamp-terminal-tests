@@ -1,8 +1,11 @@
 module.exports = function mostProfitableDepartment(department1){
     var map = {};
     var depName = '';
+
      for (var i = 0; i < department1.length; i++){
+
        var myDepartment = department1[i].department
+       
         if(map[myDepartment] === undefined){
            map[myDepartment] = 0;
         }
@@ -20,5 +23,8 @@ module.exports = function mostProfitableDepartment(department1){
     
          }
     
-      }return greaterDep
+      }
+      
+      return greaterDep
+
     }

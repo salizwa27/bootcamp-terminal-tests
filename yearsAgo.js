@@ -1,5 +1,7 @@
 module.exports = function yearsAgo (year){
     
-    var yearsAgo = (2020 - year);
-    return yearsAgo
+  var d = new Date();
+ return d.getFullYear() - year
+    // var yearsAgo = (2020 - year);
+    // return yearsAgo
   };
